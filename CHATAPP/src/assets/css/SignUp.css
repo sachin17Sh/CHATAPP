@@ -1,0 +1,103 @@
+.FormSection {
+    background: #fff;
+    padding: 6px 45px 45px 25px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    p {
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        font-weight: 600;
+        font-size: 19px;
+        margin-top: 15px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+        font-size: 14px;
+        transition: border-color 0.3s;
+    }
+
+    input:focus {
+        border-color: #007BFF;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    }
+
+    button {
+        background-color: #1883db;
+        color: white;
+        border: none;
+        padding: 11px;
+        font-size: 18px;
+        font-weight: 600;
+        width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #6e9ac8;
+    }
+
+    .errors {
+        color: red;
+        font-size: 14px;
+        margin-top: 2px;
+    }
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    p a {
+        color: #1883db;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+    }
+    .password-wrapper {
+        position: relative;
+        width: 100%;
+      }
+      
+      .visibility-icon {
+        position: absolute;
+        right: 10px;
+        top: 56%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: #888;
+        font-size: 22px;
+      }
+      
+      .visibility-icon:hover {
+        color: #007BFF;
+      }
+
+}

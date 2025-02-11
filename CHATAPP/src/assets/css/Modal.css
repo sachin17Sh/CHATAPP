@@ -1,0 +1,25 @@
+
+.modal {
+    /* background: linear-gradient(90deg, rgb(83, 77, 201) 0%, rgba(0,212,255,1) 100%); */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    text-align: center;
+    z-index: 1;
+    
+  }
+  
+  .modal .MuiDialog-paper {
+    padding: 80px;
+    background: linear-gradient(90deg, rgba(238,238,244,1) 0%, rgba(212,220,222,1) 100%);
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 10px 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .modal h1 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+  }
+ 
