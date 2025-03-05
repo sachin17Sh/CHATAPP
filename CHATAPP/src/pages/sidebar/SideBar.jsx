@@ -34,7 +34,7 @@ export default function SideBar({ children, socketId }) {
         <ul> {
              data.map((user, id) => {
               return <li key={id}>
-                {user.userName}
+                {user.username}
               </li>
             })
         }

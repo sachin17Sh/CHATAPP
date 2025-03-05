@@ -7,7 +7,7 @@ import Modal from './modal/Modal';
 import { MUI_C } from '../MUI Components/Components';
 
 const initialValues = {
-  userName: '',
+  username: '',
   password: ''
 };
 
@@ -58,7 +58,7 @@ export default function SignIn() {
   return (
     <>
       {showModal && <Modal open={isModalOpen}  
-        title={`Welcome ${formik.values.userName}`}>
+        title={`Welcome ${formik.values.username}`}>
        <h3>Success! You’re now logged in. Let’s get started...</h3>
       </Modal>}
 
@@ -71,12 +71,12 @@ export default function SignIn() {
       <form onSubmit={formik.handleSubmit} className='Formsection'>
         <h2>Login</h2>
         <div>
-          <label htmlFor='userName'>User-Name</label>
-          <input id='userName'
+          <label htmlFor='username'>User-Name</label>
+          <input id='username'
             type='text'
             placeholder='Enter username'
             onChange={formik.handleChange}
-            value={formik.values.userName}
+            value={formik.values.username}
             onBlur={formik.handleBlur} />
         </div>
         <div className="password-wrapper">
@@ -102,7 +102,11 @@ export default function SignIn() {
             />
           )}
         </div>
+        <div className='link-section'>
         <p>Don't have an account? <Link to="/signup">Sign Up</Link></p>
+        <p><Link to="/forgotPassword">Forgot Password?</Link></p>
+        </div>
+       
         <div>
           <button type='submit'>Submit</button>
         </div>

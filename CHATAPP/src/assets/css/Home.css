@@ -38,22 +38,6 @@ li {
 
 }
 
-
-
-/* li.incoming {
-  background-color: #e1f5fe;
-  text-align: left;
-  border-radius: 18px 18px 18px 0;
-  margin-right: auto;
-}
-
-li.outgoing {
-  background-color: #c8e6c9;
-  text-align: right;
-  border-radius: 18px 18px 0 18px;
-  margin-left: auto;
-} */
-
 .formsec{
   background-color: white;
   max-width: 25%;
@@ -68,3 +52,20 @@ li.outgoing {
   transition: border-color 0.3s;
 } 
 
+
+.logout-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.logout-container .MuiButtonBase-root{
+  color: #099ee3;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 10px;
+}
+.logout-container .MuiButtonBase-root:hover{
+  background-color: #099ee3; 
+  color: #ffffff;
+}

@@ -1,0 +1,78 @@
+.confirmPasswordSection {
+    background: #fff;
+    padding: 6px 45px 45px 25px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    margin: 12rem auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.confirmPasswordSection h2 {
+    font-size: 28px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.confirmPasswordSection label {
+    display: block;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.confirmPasswordSection input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: border-color 0.3s;
+}
+
+.confirmPasswordSection input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.confirmPasswordSection button {
+    background-color: #1883db;
+    color: white;
+    border: none;
+    padding: 11px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.confirmPasswordSection button:hover {
+    background-color: #6e9ac8;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.visibility-icon {
+    font-size: 24px;
+}
+.visibility-icon:hover {
+    color: #007BFF;
+  }
